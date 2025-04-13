@@ -3,13 +3,13 @@
 
 This project is designed to assist CLAT aspirants by recommending personalized mentors based on user preferences and mentor profiles using a content-based filtering approach.
 
-## 🔍 Project Summary
+## Project Summary
 
 The **Mentor Recommendation System** leverages:
 - **OneHotEncoder** for handling categorical features (e.g., Subject expertise, Experience level, Region)
 - **K-Nearest Neighbors (KNN)** from `sklearn.neighbors` to identify mentors most similar to the user's preferences
 
-### 🧠 Workflow Overview:
+###  Workflow Overview:
 1. Load mentor dataset with features like specialization, availability, and region.
 2. Encode categorical features using **OneHotEncoding**.
 3. Fit the **Nearest Neighbors model**.
@@ -18,7 +18,7 @@ The **Mentor Recommendation System** leverages:
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Environment Requirements
 Python version: >=3.7 (Recommended: 3.8 or 3.9)
@@ -33,7 +33,7 @@ jupyter notebook Mentor_Recommendation_System.ipynb
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.7+
 - pandas
